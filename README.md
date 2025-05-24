@@ -1,4 +1,4 @@
-# Laporan Proyek Machine Learning - Nama Anda
+# Laporan Proyek Machine Learning - Mario Valerian Rante Ta'dung
 
 ## 1. Domain Proyek
 
