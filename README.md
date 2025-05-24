@@ -4,7 +4,12 @@
 
 ### 1.1 Latar Belakang
 
-Pengelolaan sampah yang kurang efektif menyebabkan penumpukan di Tempat Pembuangan Akhir (TPA), pencemaran lingkungan, dan penurunan kualitas hidup masyarakat. Salah satu hambatan utama adalah kesulitan masyarakat dalam memilah sampah organik dan anorganik.
+Saat ini, pengolahan sampah masih menjadi tantangan global yang dihadapi oleh berbagai negara, salah satunya adalah Indonesia. Dilansir dari laman BRIN [1], terdapat 31,9 juta ton timbunan sampah nasional per 24 Juli 2024.  Dari keseluruhan sampah yang dihasilkan secara nasional, sekitar 63,3% atau setara dengan 20,5 juta ton berhasil dikelola dengan baik. Namun, masih terdapat 35,67% atau sekitar 11,3 juta ton sampah yang belum tertangani secara optimal. Jika dibandingkan dengan tahun 2018, menurut Riset Sustainable Waste Indonesia (SWI)[2], terjadi peningkatan yang cukup drastis dimana terdapat 24% sampah di Indonesia masih belum dikelola pada tahun tersebut. Kondisi ini menunjukkan bahwa meskipun mayoritas sampah telah dikelola, proporsi sampah yang belum tertangani mengalami peningkatan signifikan dalam kurun waktu enam tahun terakhir, dari 24% pada tahun 2018 menjadi 35,67% pada tahun 2024. Kenaikan lebih dari 11 persen ini menandakan adanya kesenjangan antara pertumbuhan volume sampah dengan kapasitas sistem pengelolaan yang tersedia. 
+
+Sampah yang tidak terkelola dengan baik dapat menimbulkan berbagai dampak negatif. Penumpukan sampah di sungai dan saluran air menyebabkan banjir, sementara tumpukan sampah di Tempat Pemrosesan Akhir (TPA) dapat memicu longsor sampah, seperti yang terjadi di TPA Leuwigajah pada tahun 2005 . Selain itu, sampah plastik yang mencemari laut mengancam kehidupan biota laut dan dapat masuk ke rantai makanan manusia, menimbulkan risiko kesehatan yang serius
+
+Salah satu faktor utama yang menyebabkan rendahnya tingkat pengelolaan sampah di Indonesia adalah minimnya kebiasaan masyarakat dalam melakukan pemilahan sampah sejak dari sumbernya. Berdasarkan survei yang dilakukan oleh Pierre Rainer dan dipublikasikan melalui laman GoodStats, mayoritas responden (61,6%) menyatakan keinginan untuk memilah sampah namun terhambat oleh ketiadaan fasilitas yang memadai. Selain itu, sebanyak 47% responden mengaku tidak memiliki waktu untuk melakukan pemilahan, sementara 6,8% lainnya menyatakan bahwa mereka tidak menganggap pemilahan sampah sebagai tanggung jawab pribadi. Temuan ini menunjukkan bahwa perilaku pemilahan sampah sangat dipengaruhi oleh ketersediaan infrastruktur serta kesadaran individu terhadap tanggung jawab lingkungan.
+
 
 **Rubrik Tambahan:**
 
