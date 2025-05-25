@@ -10,12 +10,6 @@ Sampah yang tidak terkelola dengan baik dapat menimbulkan berbagai dampak negati
 
 Salah satu faktor utama yang menyebabkan rendahnya tingkat pengelolaan sampah di Indonesia adalah minimnya kebiasaan masyarakat dalam melakukan pemilahan sampah sejak dari sumbernya. Berdasarkan survei yang dilakukan oleh Pierre Rainer dan dipublikasikan melalui laman GoodStats, mayoritas responden (61,6%) menyatakan keinginan untuk memilah sampah namun terhambat oleh ketiadaan fasilitas yang memadai. Selain itu, sebanyak 47% responden mengaku tidak memiliki waktu untuk melakukan pemilahan, sementara 6,8% lainnya menyatakan bahwa mereka tidak menganggap pemilahan sampah sebagai tanggung jawab pribadi. Temuan ini menunjukkan bahwa perilaku pemilahan sampah sangat dipengaruhi oleh ketersediaan infrastruktur serta kesadaran individu terhadap tanggung jawab lingkungan.
 
-
-**Rubrik Tambahan:**
-
-* Masalah pemilahan sampah harus diselesaikan karena berdampak langsung pada biaya pengelolaan dan kesehatan lingkungan.
-* Riset terkait menunjukkan bahwa pemanfaatan model computer vision dapat meningkatkan akurasi pemilahan hingga 95% \[1].
-
 ## 2. Business Understanding
 
 ### 2.1 Problem Statements
@@ -40,7 +34,7 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 **Variabel/Fitur:**
 
 * Input: citra RGB (ukuran bervariasi).
-* Label: Organik, Anorganik.
+* Label: Paper, Glass, Plastic, Metal, Cardboard dan Trash
 
 ### **Distribusi Data**
 ![Train Data](Images/Training.png)
