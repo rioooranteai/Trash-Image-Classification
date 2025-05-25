@@ -42,6 +42,12 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 * Input: citra RGB (ukuran bervariasi).
 * Label: Organik, Anorganik.
 
+### **Distribusi Data**
+![Train Data](Images/Training.png)
+![Test Data](Images/Test.png)
+![Validation Data](Images/Val.png)
+
+
 ## 4. Data Preparation
 
 1. **Label Mapping:** Menggabungkan 6 kelas menjadi 2.
