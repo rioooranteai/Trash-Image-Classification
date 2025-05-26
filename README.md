@@ -33,7 +33,7 @@ Kemajuan dalam bidang kecerdasan buatan, khususnya pada teknologi computer visio
 
 ## 3. Data Understanding
 
-Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification)). Terdiri atas 2.527 gambar dengan 6 kelas awal, dimapping menjadi 2 kategori: Organik dan Anorganik.
+Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification)). Terdiri atas 2.527 gambar dengan 6 kelas.
 
 **Variabel/Fitur:**
 
