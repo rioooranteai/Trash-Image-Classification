@@ -82,6 +82,6 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 
 ---
 
-# **Referensi:**
+## **Referensi**
 
 \[1] Doe, J. (2021). Deep Learning for Waste Classification. *Journal of Environmental AI*.
