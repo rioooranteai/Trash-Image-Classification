@@ -117,10 +117,10 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 * Regularization: L2 (1e-3) applied to Dense layers
 
 ## 6. Evaluation
-**Metrik Evaluasi:**
+**Metrik Evaluasi**
 ![Plot-History](Images/Plot-Train-Val.png)
 
-**Evaluasi pada Data Test** Akurasi, Precision, Recall, F1-score.
+**Evaluasi pada Data Test**
 * Test Loss: 0.36955204606056213
 * Test Accuracy: 0.8677042722702026
 * Test Precision: 0.891566276550293
