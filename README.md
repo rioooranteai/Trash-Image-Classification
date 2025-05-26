@@ -111,14 +111,18 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 * Epochs: 20
 
 ## 6. Evaluation
+**Metrik Evaluasi:**
+![Plot-History](Images/Plot-Train-Val.png)
 
 **Metrik Evaluasi:** Akurasi, Precision, Recall, F1-score.
-
 * Test Loss: 0.36955204606056213
 * Test Accuracy: 0.8677042722702026
 * Test Precision: 0.891566276550293
 * Test Recall: 0.8638132214546204
 * Test F1 Score: 0.8774703145027161
+
+**Confusion Matrix**.
+![Confusion Matrix](Images/Conv.png)
 
 ## **Referensi**
 
