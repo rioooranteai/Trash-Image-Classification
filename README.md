@@ -116,8 +116,7 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 
 **Hasil:**
 
-* Model A: akurasi 88%, F1-score 0.87.
-* Model B: akurasi 93%, F1-score 0.92.
+* Model A: Test Loss: 0.36955204606056213, Test Accuracy: 0.8677042722702026, Test Precision: 0.891566276550293, Test Recall: 0.8638132214546204, Test F1 Score: 0.8774703145027161
 
 **Analisis:** Model B terpilih sebagai final karena akurasi lebih tinggi dan inferensi cepat.
 
