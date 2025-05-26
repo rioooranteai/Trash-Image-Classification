@@ -16,8 +16,11 @@ Kemajuan dalam bidang kecerdasan buatan, khususnya pada teknologi computer visio
 
 ### 2.1 Problem Statements
 
-1. Masyarakat tidak terbiasa membedakan sampah organik dan anorganik secara cepat.
-2. Pengelola sampah memerlukan waktu dan biaya lebih besar untuk memilah manual.
+Problem Statement 1
+Rendahnya tingkat pengelolaan sampah di Indonesia disebabkan oleh kesenjangan antara pertumbuhan volume sampah dengan kapasitas sistem pengelolaan yang tersedia, yang terbukti dari meningkatnya proporsi sampah tidak terkelola dari 24% pada tahun 2018 menjadi 35,67% pada tahun 2024. Hal ini menunjukkan bahwa sistem pengelolaan sampah saat ini belum mampu mengikuti laju timbunan sampah yang terus meningkat.
+
+Problem Statement 2
+Minimnya kebiasaan masyarakat dalam memilah sampah sejak dari sumbernya menjadi hambatan utama dalam meningkatkan efisiensi pengelolaan sampah. Survei menunjukkan bahwa sebagian besar masyarakat tidak memilah sampah karena kurangnya fasilitas, waktu, dan kesadaran tanggung jawab, sehingga diperlukan solusi inovatif yang dapat mendukung proses pemilahan secara otomatis dan mudah diakses.
 
 ### 2.2 Goals
 
