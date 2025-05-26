@@ -87,7 +87,6 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 
 **Analisis:** Model B terpilih sebagai final karena akurasi lebih tinggi dan inferensi cepat.
 
----
 
 ## **Referensi**
 
