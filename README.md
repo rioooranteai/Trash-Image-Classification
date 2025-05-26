@@ -50,11 +50,21 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 
 ## 4. Data Preparation
 
-1. **Label Mapping:** Menggabungkan 6 kelas menjadi 2.
-2. **Resize:** Menyesuaikan semua citra ke 224×224 pixel.
-3. **Normalisasi:** Skala piksel ke rentang \[0,1].
-4. **Augmentasi:** Flip horizontal, rotasi 20°, zoom 10%.
-5. **Split:** Train 70%, Validation 15%, Test 15%.
+1. **Resize:** All images resized to 224×224 pixels.
+2. **Data Augmentation (`create_data_augmentation`):**
+   - `RandomFlip("horizontal")`
+   - `RandomRotation(0.2)` (~20°)
+   - `RandomZoom(0.2)` (20%)
+   - `RandomContrast(0.1)` (10%)
+3. **Preprocessing (`create_preprocessing`):**
+   - For **ResNetV2**: Rescaling to [-1, 1] using `scale=1/127.5`, `offset=-1`.
+   - For **other models**: Rescaling to [0, 1] using `1/255`, followed by normalization with:
+     - `mean=[0.485, 0.456, 0.406]`
+     - `variance=[0.229², 0.224², 0.225²]`
+4. **Data Split:**
+   - Train: 80%
+   - Validation: 10%
+   - Test: 10%
 
 ## 5. Modeling
 
@@ -65,11 +75,6 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 * Optimizer: Adam (lr=0.001)
 * Batch size: 32
 * Epochs: 20
-
-**Rubrik Tambahan:**
-
-* Kelebihan/C Kekurangan tiap algoritma.
-* Proses hyperparameter tuning pada Model B.
 
 ## 6. Evaluation
 
