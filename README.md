@@ -83,7 +83,7 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 * Regularization: L2 (1e-3) applied to Dense layers
 
 ## 6. Evaluation
-**Metrik Evaluasi**
+**Plot Histori Training Model**
 ![Plot-History](Images/Plot-Train-Val.png)
 
 **Evaluasi pada Data Test**
@@ -93,7 +93,7 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 * Test Recall: 0.8638132214546204
 * Test F1 Score: 0.8774703145027161
 
-**Confusion Matrix**.
+**Confusion Matrix**
 
 ![Confusion Matrix](Images/Conv.png)
 
