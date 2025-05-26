@@ -104,17 +104,23 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 
 **Model (Transfer Learning):** Resnet50V2 pretrained (imagenet) + head baru.
 
-**Parameter:**
+**Parameter**
 
-* Optimizer: Adam (lr=0.001)
+* Optimizer: Adam (ExponentialDecay learning rate, initial_lr = 0.01, decay_rate = 0.9, decay_steps = 100)
+* Loss Function: CategoricalCrossentropy (label_smoothing = 0.1)
 * Batch size: 32
-* Epochs: 20
+* Epochs: 30
+* EarlyStopping: patience = 10, monitor = val_accuracy
+* ModelCheckpoint: save best weights (monitor = val_accuracy)
+* Data Augmentation: RandomFlip, RandomRotation(0.2), RandomZoom(0.2), RandomContrast(0.1)
+* Preprocessing: Rescaling (scale=1./127.5, offset=-1) for ResNet50V2
+* Regularization: L2 (1e-3) applied to Dense layers
 
 ## 6. Evaluation
 **Metrik Evaluasi:**
 ![Plot-History](Images/Plot-Train-Val.png)
 
-**Metrik Evaluasi:** Akurasi, Precision, Recall, F1-score.
+**Evaluasi pada Data Test** Akurasi, Precision, Recall, F1-score.
 * Test Loss: 0.36955204606056213
 * Test Accuracy: 0.8677042722702026
 * Test Precision: 0.891566276550293
@@ -122,6 +128,7 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 * Test F1 Score: 0.8774703145027161
 
 **Confusion Matrix**.
+
 ![Confusion Matrix](Images/Conv.png)
 
 ## **Referensi**
