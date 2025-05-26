@@ -26,13 +26,10 @@ Kemajuan dalam bidang kecerdasan buatan, khususnya pada teknologi computer visio
 
 ### 2.2 Goals
 
-* Menyediakan model otomatis yang mampu mengklasifikasikan sampah organik vs anorganik dengan akurasi ≥ 90%.
-* Mengurangi waktu pemrosesan per gambar menjadi < 100 ms.
-
-**Solution Statements (Tambahan):**
-
-1. Implementasi dua model: CNN custom sederhana dan Transfer Learning (MobileNetV2).
-2. Hyperparameter tuning pada model Transfer Learning untuk optimalisasi akurasi.
+1. **Mengembangkan model klasifikasi citra berbasis deep learning** yang mampu mengidentifikasi enam kategori sampah (Paper, Glass, Plastic, Metal, Cardboard, dan Trash) dengan tingkat akurasi pada data validasi yang dapat diterima (>80%) sebagai baseline awal.
+2. **Memanfaatkan arsitektur CNN dan pendekatan transfer learning** untuk membandingkan performa serta mengidentifikasi pendekatan yang paling sesuai untuk klasifikasi multi-kelas sampah.
+3. **Menyiapkan pipeline pemrosesan data dan augmentasi gambar** untuk meningkatkan generalisasi model terhadap berbagai kondisi pencahayaan dan orientasi citra.
+4. **Menghasilkan model yang dapat digunakan sebagai prototipe awal** untuk sistem pendukung pemilahan sampah otomatis berbasis visual, sebagai bagian dari solusi menuju pengelolaan sampah yang lebih efisien.
 
 ## 3. Data Understanding
 
@@ -59,8 +56,7 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 
 ## 5. Modeling
 
-1. **Model A (CNN Custom):** 3 blok Conv2D + MaxPooling + Dense.
-2. **Model B (Transfer Learning):** MobileNetV2 pretrained + head baru.
+**Model (Transfer Learning):** Resnet50V2 pretrained (imagenet) + head baru.
 
 **Parameter:**
 
