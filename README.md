@@ -1,6 +1,6 @@
 # Laporan Proyek Machine Learning - Mario Valerian Rante Ta'dung
 
-# Ringkasan Proses Proyek Trash Classification
+### Ringkasan Proses Proyek Trash Classification
 
 - **Persiapan Data:**
   - Download dan ekstrak dataset sampah dari Kaggle.
