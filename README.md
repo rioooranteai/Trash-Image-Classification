@@ -87,8 +87,12 @@ Dataset yang digunakan adalah **Garbage Classification** dari Kaggle ([https://w
 ## **Referensi**
 
 \[1] 	"11,3 Juta Ton Sampah di Indonesia Tidak Terkelola dengan Baik," BRIN, 26 Juli 2024. [Online]. Available: https://brin.go.id/drid/posts/kabar/113-juta-ton-sampah-di-indonesia-tidak-terkelola-dengan-baik. [Accessed 24 Mei 2025].
+
 \[2] 	"Riset: 24 Persen Sampah di Indonesia Masih Tak Terkelola," CNN Indonesia, 25 April 2018. [Online]. Available: https://www.cnnindonesia.com/gaya-hidup/20180425101643-282-293362/riset-24-persen-sampah-di-indonesia-masih-tak-terkelola. [Accessed 25 Mei 2025].
+
 \[3] 	P. T. Violleta, "Peneliti BRIN: Kerugian ekonomi akibat sampah bisa capai Rp250 triliun," Antara, 30 April 2024. [Online]. Available: https://www.antaranews.com/berita/4082307/peneliti-brin-kerugian-ekonomi-akibat-sampah-bisa-capai-rp250-triliun. [Accessed 26 Mei 2025].
+
 \[4] 	E. P. Putra, "Potensi Ekonomi Bisnis Sampah Nasional Capai Rp 127,5 Triliun per Tahun," Republika, 2 Maret 2025. [Online]. Available: https://news.republika.co.id/berita/sshqqb484/potensi-ekonomi-bisnis-sampah-nasional-capai-rp-1275-triliun-per-tahun-part2. [Accessed 26 Mei 2025].
+
 \[5] 	P. Rainer, "Alasan Separuh Masyarakat RI Tidak Memilah Sampah," GoodStats, 22 Agustus 2023. [Online]. Available: https://data.goodstats.id/statistic/alasan-separuh-masyarakat-ri-tidak-memilah-sampah-5Dm7e. [Accessed 25 Mei 2025].
 
