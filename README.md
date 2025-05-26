@@ -1,39 +1,5 @@
 # Laporan Proyek Machine Learning - Mario Valerian Rante Ta'dung
 
-### Ringkasan Proses Proyek Trash Classification
-
-- **Persiapan Data:**
-  - Download dan ekstrak dataset sampah dari Kaggle.
-  - Bagi dataset menjadi train, validation, dan test dengan rasio 80:10:10 menggunakan `splitfolders`.
-  - Load gambar dan label dari folder, serta visualisasi distribusi kelas.
-
-- **Pembuatan Dataset TensorFlow:**
-  - Buat dataset dari folder menggunakan `image_dataset_from_directory`.
-  - Terapkan cache, shuffle, dan prefetch untuk optimasi loading data.
-  - Simpan nama kelas (class indices) untuk evaluasi dan visualisasi.
-
-- **Augmentasi dan Preprocessing:**
-  - Data augmentation: random flip, rotation, zoom, dan contrast.
-  - Preprocessing khusus untuk model ResNetV2 (scaling ke [-1,1]) dan normalisasi untuk model lain.
-
-- **Modeling:**
-  - Bangun model ResNet50V2 pretrained tanpa top layer.
-  - Tambahkan layer pooling, batch normalization, dropout, dan dense dengan regularisasi L2.
-  - Kompilasi model dengan optimizer Adam (atau AdamW), loss categorical crossentropy, dan metrik akurasi, precision, recall, dan F1-score.
-
-- **Training:**
-  - Gunakan callback untuk checkpoint, early stopping, dan tensorboard.
-  - Latih model selama beberapa epoch, simpan model terbaik berdasarkan val_accuracy.
-
-- **Evaluasi:**
-  - Plot metrik training dan validation (accuracy, loss, precision, recall, F1-score) dalam subplot.
-  - Evaluasi model di data test untuk mendapatkan metrik final.
-
-- **Analisis Hasil:**
-  - Prediksi kelas pada test set.
-  - Buat confusion matrix dan visualisasikan dengan label kelas untuk analisis kesalahan prediksi.
-
-
 ## 1. Domain Proyek
 
 ### 1.1 Latar Belakang
